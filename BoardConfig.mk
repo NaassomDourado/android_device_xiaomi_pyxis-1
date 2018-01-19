@@ -14,6 +14,9 @@ DEVICE_PATH := device/xiaomi/pyxis
 # Assert
 TARGET_OTA_ASSERT_DEVICE := pyxis
 
+# Compile libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
