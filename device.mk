@@ -125,6 +125,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
+# FOD
+EXTRA_FOD_ANIMATIONS := true
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/pn5xx
