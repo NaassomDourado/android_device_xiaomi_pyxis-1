@@ -6,12 +6,12 @@
 
 $(call inherit-product, device/xiaomi/pyxis/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Derp stuff.
 EXTRA_FOD_ANIMATIONS := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_pyxis
+PRODUCT_NAME := derp_pyxis
 PRODUCT_DEVICE := pyxis
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9 Lite
