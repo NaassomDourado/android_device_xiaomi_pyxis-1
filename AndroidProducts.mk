@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_pyxis.mk
+    $(LOCAL_DIR)/bliss_pyxis.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_pyxis-user \
-    derp_pyxis-userdebug \
-    derp_pyxis-eng
+    bliss_pyxis-user \
+    bliss_pyxis-userdebug \
+    bliss_pyxis-eng
