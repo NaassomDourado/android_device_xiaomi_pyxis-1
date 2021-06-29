@@ -131,7 +131,7 @@
 
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
-        <item>0</item>
+        <item>1</item>
         <item>15</item>
         <item>30</item>
         <item>45</item>
@@ -182,7 +182,7 @@
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">1</integer>
+    <integer name="config_screenBrightnessDim">5</integer>
 
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
          May be less than the minimum allowed brightness setting
@@ -359,7 +359,7 @@
     <bool name="config_fingerprintSupportsGestures">true</bool>
 
     <!-- FOD Icon Dimming -->
-    <bool name="config_targetUsesInKernelDimming">true</bool>
+    <bool name="config_targetUsesInKernelDimming">false</bool>
 
     <!-- Whether to use in-built Screen Record service -->
     <bool name="config_showScreenRecord">true</bool>
