@@ -36,7 +36,7 @@
     <bool name="config_pocketUseLightSensor">false</bool>
 
     <!-- Defines custom OEM sensor for pocket detection. -->
-    <string name="config_pocketJudgeVendorSensorName">xiaomi.sensor.proximity</string>
+    <string name="config_pocketJudgeVendorSensorName">com.xiaomi.pocket</string>
 
     <!-- The list of components which should be automatically disabled for a specific device. -->
     <string-array name="config_deviceDisabledComponents" translatable="false">
